@@ -1,0 +1,224 @@
+/*-----------------CSS RESET------------------------*/
+*{
+padding:0;
+margin: 0;
+font-family:100%;
+line-height:1em;
+}
+/*------------------------side bar-------------------------*/
+body{overflow-x: hidden;}
+
+.sidebar { display: flex;
+    background: rgba(198,178,249,1);
+min-width: 200px;
+    flex-direction: column;
+    text-align: center;
+   width: 15%;
+  position: fixed;
+
+    z-index: 1;
+    height:100vh;
+    float: left;
+    left: 0;
+}
+
+.sidebar img{width:130px;
+margin: auto;
+margin-top: 0;
+margin-bottom: 11px}
+
+.side-entries{
+    padding: 0.6em;
+    font-size: 1.8em;
+    font-family: arial black;
+    color:white;
+}
+
+a{text-decoration: none;
+}
+a:hover{opacity:0.7;
+transition: 0.5s;}
+
+a:visited{color:white}
+/*-------------------------------------------------*/
+section{min-height: 100vh;
+background-image: url(img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat; }
+
+/*----------------------front---------------------------*/
+
+.avatar{padding: 2em;
+margin-top:6em}
+
+h2{font-family: arial black;
+   color: rgba(73,39,123,1);  
+   text-align: center;
+    font-size: 2.9em;
+max-width: 700px;
+margin: auto;
+padding: 1em}
+
+h3{font-family: arial black;
+   color: rgba(73,39,123,1);  
+   text-align: center;
+    font-size: 2em;
+max-width: 700px;
+margin: auto;
+padding: 1em}
+
+.downarrow{height:200px;
+background-color:rgba(161,116,232,1);
+width: 100%;
+margin-bottom: -50px;
+padding: 0;}
+
+/*----------------------Blog entries---------------------------*/
+.entry-title{font-family: arial black;
+color: rgba(73,39,123,1) }
+
+
+
+.header {display: flex;
+    flex-direction: column;
+    background: rgba(70,175,211,1);
+    text-align: center;
+    padding: 0em;
+    margin: 0;
+    width: 100%;
+    height: 135px;
+    justify-content: center;
+}
+
+.kevin{font-family: arial black;
+color: #fff;
+font-size: 5em;margin-bottom: 0;
+padding: 0;}
+
+.title{font-family: arial black;
+color: #fff;
+font-size: 5em;
+margin-bottom:0px;
+padding: 0;
+line-height: 35px;}
+
+.week-no{font-family: arial black;
+color: #fff;
+font-size: 5em;
+margin-bottom:0px;
+padding: 0;
+line-height:65px;}
+
+.footer {
+    background: rgba(161,116,232,1);
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    width: 85%;
+    height:100px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    width: 85%;
+    right: 0;
+    align-items: center;
+}
+
+.blog {align-content: center;
+    text-align: center;
+    background-color: ;
+    padding: 10px;
+    width:100%;
+    float:right;
+    right: 0;
+    
+   
+}
+/*----------------------Blog titles---------------------------*/
+.blog-title1{background-color: rgba(161,116,232,1);
+height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+   
+}
+.bottom{margin-bottom:}
+
+
+/*-------------------------------------------------*/
+p{
+    margin: auto;
+    text-align: justify;
+    padding-top:2em;
+    padding-bottom:2em;  
+    width:45%;
+    font-family:arial ;
+    font-size: 1.4em;
+    line-height: 1.5em
+}
+
+
+/*----------------------media queries---------------------------*/
+
+/*medium*/
+
+@media all and (max-width: 1000px) {
+   
+    .avatar{padding: 1em;
+margin-top:1em;
+    transform: scale(0.8)}
+    .sidebar{display: none;}
+    .container{width: 100%}
+    p{width: 75%;
+    font size:1.8em}
+    section{ height: auto;}
+    
+}
+
+
+@media (max-width: 654px){
+    .avatar{padding: 1em;
+margin-top:-1em;
+    transform: scale(0.6)}
+    .intro{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;}
+    .kevin{font-size:2.5em;margin-top: 20px;}
+    .title{font-size:2.5em;
+    line-height: 17px;}
+    .header{height: 90px;}
+    .sub-title{font-size: 2em;margin-top:-50px;}
+    .blogpost-img{width: 100%;}
+    .sub-heading{font-size: 1.2em;
+        line-height: 1.2em;
+    margin-top: 10px;
+    width: 95%;}
+    }
+    .blog-title1{height:70px;}
+    .week-no{font-size:3em;
+    line-height: 40px;}
+    p{margin-top: 0px;
+        font-size:1.5em;
+    line-height: 1.2em;
+        width: 95%;
+    text-align:justify;}
+    .name{font-size: 2em;
+        margin-bottom: -50px;}
+
+.downarrow{height:200px;
+background-color:rgba(161,116,232,1);
+width: 100%;
+margin-bottom: -50px;
+padding: 0;}
+    
+}
+
+
+
+
