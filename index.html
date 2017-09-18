@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="main.css" rel="stylesheet">
-   
+
     </head>
     <body>
         
@@ -20,10 +20,10 @@
         <h3>Blog enteries</h3>
             <ul>
                 
-                   <li class="side-entries"><a href=#week1>WEEK 1</a></li>
-                   <li class="side-entries"><a>WEEK 2</a></li>
-                   <li class="side-entries"><a>WEEK 3</a></li>
-                   <li class="side-entries"><a>WEEK 4</a></li>
+                   <li class="side-entries"><a class="side-a" href=#week1>WEEK 1</a></li>
+                   <li class="side-entries"><a class="side-a">WEEK 2</a></li>
+                   <li class="side-entries"><a class="side-a">WEEK 3</a></li>
+                   <li class="side-entries"><a class="side-a">WEEK 4</a></li>
                 
             </ul>
     </div> 
@@ -31,7 +31,43 @@
 </div>
         
          <div id="top" class="container">
-        <div class="header"><h1 class="kevin">KEVIN'S</h1>
+        <div class="header">
+        
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+        <a href="#top"><img src="img/avatar-line.png"></a>
+      <a href="#week1"><li>Week 1</li></a>
+      <a href="#week2"><li>Week 2</li></a>
+      <a href="#week3"><li>Week 3</li></a>
+      <a href="#week4"><li>Week 4</li></a>
+      <a href="https://www.kevingallagher.org/" target="_blank"><li>More From Me</li></a>
+    </ul>
+  </div>
+</nav>
+            
+            
+            
+            <h1 class="kevin">KEVIN'S</h1>
             <h1 class="title">WEEKLY BLOG</h1></div>
       
             
@@ -60,7 +96,7 @@
                 
         <h3 class="name">Getting Started</h3>
             
-            <p>Day one was all about settling in and getting myself used to the new surroundings. I was tasked with creating three icons. An exercise in throwing myself back into the arms of Illustrator. I had gotten used to working with on Sketch that it was a little daunting in the beginning....</p>
+            <p>Day one was all about settling in and getting myself used to the new surroundings. I was tasked with creating three icons. An exercise in throwing myself back into the arms of Illustrator. I had gotten used to working with on Sketch that it was a little daunting in the beginning.</p>
                 
          
             </section>
@@ -73,7 +109,7 @@
         
         
         
-    
+
         
     </body>
 </html>
