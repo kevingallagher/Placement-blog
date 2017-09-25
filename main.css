@@ -130,12 +130,12 @@ a:hover
 #menu
 {
   position: fixed;
-  width:30%;
+  width:80%;
     height: 100vh;
   margin: -100px 0 0 -50px;
   padding-top: 125px;
   
-  background-color: rgba(198,178,249,1);
+  background-color: rgba(198,178,249,0.9);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
