@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="main.css" rel="stylesheet">
-
+        <link rel="" href="smoothescroll.js">
     </head>
     <body>
         
@@ -17,7 +17,7 @@
     
     <div class="weeks">
         
-        <h3>Blog enteries</h3>
+        <h4>BLOG ENTERIES</h4>
             <ul>
                 
                    <li class="side-entries"><a class="side-a" href=#week1>WEEK 1</a></li>
@@ -56,10 +56,10 @@
     -->
     <ul id="menu">
         <a href="#top"><img src="img/avatar-line.png"></a>
-      <a href="#week1"><li>Week 1</li></a>
-      <a href="#week2"><li>Week 2</li></a>
-      <a href="#week3"><li>Week 3</li></a>
-      <a href="#week4"><li>Week 4</li></a>
+      <a href="#week1"><li>WEEK 1</li></a>
+      <a href="#week2"><li>WEEK 2</li></a>
+      <a href="#week3"><li>WEEK 3</li></a>
+      <a href="#week4"><li>WEEK 4</li></a>
       <a href="https://www.kevingallagher.org/" target="_blank"><li>More From Me</li></a>
     </ul>
   </div>
@@ -82,7 +82,7 @@
         <h3 class="sub-heading ">Follow me as I blog my year working as a junior designer with Archer Advertising.</h3>
               
           </div>   
-    
+        <img class="downarrow" src="img/purplearrow.png">
             </section>
           <!--- copy and past this every new entry and change (1) the section id (2) he blog-title(n) and (3)images -->  
         <section id="week1">
@@ -109,7 +109,13 @@
         
         
         
-
+       <script>
+$('.map-container')
+	.click(function(){
+			$(this).find('iframe').addClass('clicked')})
+	.mouseleave(function(){
+			$(this).find('iframe').removeClass('clicked')});
+</script>
         
     </body>
 </html>
