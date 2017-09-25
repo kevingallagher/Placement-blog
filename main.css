@@ -320,6 +320,13 @@ height: 140px;
     justify-content: center;
     align-items: flex-end;   
 }
+
+.movie-title1{background-color: rgba(229,74,119,1);
+height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
+}
 .bottom{margin-bottom:}
 
 
