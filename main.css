@@ -18,8 +18,17 @@ a
 }
 
 a:hover
-{
-  opacity: 0.5;
+{color: rgba(161,116,232,1);
+}
+
+.color2 a:hover
+{color: rgba(161,116,232,1);
+}
+.color3 a:hover
+{color: rgba(161,116,232,1);
+}
+.color4 a:hover
+{color: rgba(161,116,232,1);
 }
 
 #menuToggle
@@ -194,14 +203,14 @@ h4{font-family: arial black;
 color: rgba(208,81,151,1)}
 /*-------------------------------------------------*/
 section{min-height: 100vh;
-background-image: url(img/background.jpg);
+background-image: url(img/background.png);
     background-position: center;
     background-repeat: no-repeat; }
 
 /*----------------------front---------------------------*/
 
 .avatar{padding: 2em;
-margin-top:4em}
+margin-top:3em}
 
 h2{font-family: arial black;
    color: rgba(73,39,123,1);  
@@ -295,9 +304,21 @@ line-height:65px;}
 height: 140px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    
-   
+    align-items: flex-end;   
+}
+
+.blog-title2{background-color: rgba(118,229,202,1);
+height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
+}
+
+.blog-title3{background-color: rgba(208,81,151,1);
+height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
 }
 .bottom{margin-bottom:}
 
@@ -382,6 +403,8 @@ width: 85.2%;
     right: 0;
     bottom:-214px;
 padding: 0;}
+        .sub-heading{font-size: 1.9em;width: 40%;}
+        p{width: 55%}
 
 }
 
