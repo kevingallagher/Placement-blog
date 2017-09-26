@@ -338,8 +338,7 @@ height: 140px;
 p{
     margin: auto;
     text-align: justify;
-    padding-top:2em;
-    padding-bottom:2em;  
+    padding-bottom:1em;  
     width:45%;
     font-family:arial ;
     font-size: 1.4em;
@@ -393,7 +392,7 @@ margin-top:-1em;
     .blog-title1{height:70px;}
     .week-no{font-size:3em;
     line-height: 38px;}
-    p{margin-top: 0px;
+    p{margin-top: 20px;
         font-size:1.5em;
     line-height: 1.2em;
         width: 95%;
