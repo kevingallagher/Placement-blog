@@ -17,20 +17,16 @@ a
   transition: color 0.3s ease;
 }
 
-.one li:hover
-{background-color:rgba(161,116,232,1);
+.one:hover{background-color:rgba(161,116,232,1);
 }
 
-.two a:hover
-{color:rgba(118,229,202,1);
+.two:hover{color:rgba(118,229,202,1);
 }
 
-.three a:hover
-{color: rgba(208,81,151,1);
+.three:hover{color: rgba(208,81,151,1);
 }
 
-.four a:hover
-{color: rgba(208,81,151,1);
+.four:hover{color: rgba(208,81,151,1);
 }
 
 #menuToggle
