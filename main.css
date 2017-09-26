@@ -17,8 +17,8 @@ a
   transition: color 0.3s ease;
 }
 
-.one a:hover
-{color: rgba(161,116,232,1);
+.one li:hover
+{background-color:rgba(161,116,232,1);
 }
 
 .two a:hover
@@ -198,12 +198,6 @@ margin-bottom: 11px}
     color:white;
 }
 
-.side-a a{text-decoration: none;
-}
-.side-a a:hover{opacity:0.7;
-transition: 0.5s;}
-.side-a a:hover{opacity:0.7;
-transition: 0.5s;}
 
 .side-a a:visited{color:white}
 
