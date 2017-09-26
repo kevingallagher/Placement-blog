@@ -206,6 +206,26 @@ background-image: url(img/background.png);
     background-repeat:repeat-y; }
 
 /*----------------------front---------------------------*/
+.front{align-content: center;
+    text-align: center;
+    width:100%;
+    float:right;
+    right: 0;}
+
+.header {display: flex;
+    flex-direction: column;
+    background: rgba(70,175,211,1);
+    text-align: center;
+    padding: 0em;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    position: relative;
+    top: 0;
+}
+
+
 .kevin{font-family: 'Paytone One', sans-serif;
 color: #fff;
 font-size: 5em;
@@ -239,8 +259,10 @@ padding: 1em}
 .downarrow{
 
 width: 100%;
-    margin: auto 0;
+    margin: auto ;
+    margin-bottom: 150px;
 padding: 0;}
+
 
 /*----------------------Blog entries---------------------------*/
 .entry-title{font-family: arial black;
@@ -248,16 +270,6 @@ color: rgba(73,39,123,1) }
 
 
 
-.header {display: flex;
-    flex-direction: column;
-    background: rgba(70,175,211,1);
-    text-align: center;
-    padding: 0em;
-    margin: 0;
-    width: 100%;
-    height: 200px;
-    justify-content: center;
-}
 
 
 .week-no{font-family: 'Paytone One', sans-serif;
@@ -394,9 +406,10 @@ margin-top:-1em;
 
 .downarrow{
 width: 101%;
- position: relative;
+ position:absolute;
     right: 0;
-padding: 0;}
+padding: 0;
+    bottom: 0;}
     body{overflow-x: hidden;}
     
     .kevin{margin-top: -35px;
