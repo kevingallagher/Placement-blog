@@ -13,7 +13,7 @@ a
 {
   text-decoration: none;
     color: white;
-    font-family: arial black;
+    font-family:'Paytone One', sans-serif;
   transition: color 0.3s ease;
 }
 
@@ -188,7 +188,7 @@ margin-bottom: 11px}
 .side-entries{
     padding: 0.6em;
     font-size: 1.8em;
-    font-family: arial black;
+   font-family: 'Paytone One', sans-serif;
     color:white;
 }
 
@@ -205,14 +205,14 @@ color: rgba(208,81,151,1)}
 section{min-height: 100vh;
 background-image: url(img/background.png);
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat:repeat-y; }
 
 /*----------------------front---------------------------*/
 
 .avatar{padding: 2em;
 margin-top:3em}
 
-h2{font-family: arial black;
+h2{font-family: 'Paytone One', sans-serif;
    color: rgba(73,39,123,1);  
    text-align: center;
     font-size: 2.9em;
@@ -220,7 +220,7 @@ max-width: 700px;
 margin: auto;
 padding: 1em}
 
-h3{font-family: arial black;
+h3{font-family: 'Paytone One', sans-serif;
    color: rgba(73,39,123,1);  
    text-align: center;
     font-size: 2em;
@@ -251,19 +251,19 @@ color: rgba(73,39,123,1) }
     justify-content: center;
 }
 
-.kevin{font-family: arial black;
+.kevin{font-family: 'Paytone One', sans-serif;
 color: #fff;
 font-size: 5em;margin-bottom: 0;
 padding: 0;}
 
-.title{font-family: arial black;
+.title{font-family: 'Paytone One', sans-serif;;
 color: #fff;
 font-size: 5em;
 margin-bottom:-40px;
 padding: 0;
 line-height: 35px;}
 
-.week-no{font-family: arial black;
+.week-no{font-family: 'Paytone One', sans-serif;
 color: #fff;
 font-size: 5em;
 margin-bottom:0px;
@@ -382,7 +382,7 @@ margin-top:-1em;
     .sub-title{font-size: 2em;margin-top:-50px;}
     .blogpost-img{width: 100%;}
     .sub-heading{font-size: 1.2em;
-        line-height: 1.2em;
+        line-height: 1.5em;
     margin-top: 10px;
     width: 95%;}
   
