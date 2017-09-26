@@ -385,7 +385,7 @@ margin-top:-1em;
         line-height: 1.2em;
     margin-top: 10px;
     width: 95%;}
-    }
+  
     .blog-title1{height:70px;}
     .week-no{font-size:3em;
     line-height: 38px;}
@@ -399,9 +399,11 @@ margin-top:-1em;
 
 .downarrow{
 width: 101%;
- position: absolute;
+ position: relative;
     right: 0;
 padding: 0;}
+
+}
 
     @media (min-width: 1000px){
       #menuToggle{display: none;}
