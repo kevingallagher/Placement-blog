@@ -166,7 +166,8 @@ a:hover
 /*------------------------side bar-------------------------*/
 body{overflow-x: hidden;
 margin: auto 0;
-padding: 0;}
+padding: 0;
+width: 100%;}
 
 
 .sidebar { display: flex;
@@ -387,7 +388,6 @@ margin-top:-1em;
     .sub-heading{font-size: 1.2em;
         line-height: 1.5em;
     margin-top: 10px;
-    width: 95%;
     text-align: center;}
   
     .blog-title1{height:70px;}
