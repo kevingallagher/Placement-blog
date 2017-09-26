@@ -406,7 +406,7 @@ width: 101%;
  position: relative;
     right: 0;
 padding: 0;}
-
+    body{overflow-x: hidden;}
 }
 
     @media (min-width: 1000px){
