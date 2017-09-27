@@ -16,7 +16,7 @@ a
     font-family:'Paytone One', sans-serif;
   transition: color 0.3s ease;
 }
-li{transition: 0.4s ease-in-out}
+li{transition: 0.4s ease-in}
 li:hover{background-color:rgba(161,116,232,1);
 }
 
@@ -202,7 +202,8 @@ background-image: url(img/background.png);
     text-align: center;
     width:100%;
     float:right;
-    right: 0;}
+    right: 0;
+height: 100vh;}
 
 .header {display: flex;
     flex-direction: column;
@@ -253,10 +254,9 @@ font-size: 0.8em;
 width:70%}
 
 .downarrow{
-
 width: 100%;
-    margin: auto ;
-    margin-bottom: 150px;
+    margin-left: 0;
+
 padding: 0;}
 
 
@@ -296,6 +296,7 @@ line-height:65px;}
     width:100%;
     float:right;
     right: 0;
+    margin-top: auto
 }
 
 blockquote p{font-family: 'Titillium Web', sans-serif;
@@ -426,7 +427,7 @@ margin-top:-1em;
 .downarrow{
 width: 101%;
  position:relative;
-    margin-bottom: 0px;}
+    margin-bottom:0px;}
     
     body{overflow-x: hidden;}
     
@@ -444,10 +445,10 @@ width: 101%;
       #menuToggle{display: none;}
         
 .downarrow{
-width: 85.2%;
- position: absolute;
-    right: 0;
-    bottom:-214px;
+width: 100%;
+ position: inherit;
+    left:px;
+    bottom:0;
 padding: 0;}
         
         .sub-heading{font-size: 1.9em;width: 40%;}
