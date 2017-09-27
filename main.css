@@ -435,7 +435,8 @@ width: 101%;
      ;}
     br{line-height: 25px}
     
-    blockquote{font-size: 3em;
+    blockquote{font-size: 0.9em;
+        width: 100%;
     }
 }
 
