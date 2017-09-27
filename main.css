@@ -16,7 +16,7 @@ a
     font-family:'Paytone One', sans-serif;
   transition: color 0.3s ease;
 }
-
+li{transition: 0.4s ease-in-out}
 li:hover{background-color:rgba(161,116,232,1);
 }
 
