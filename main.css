@@ -192,7 +192,7 @@ margin-bottom: 11px}
 h4{font-family: arial;
 color: rgba(208,81,151,1)}
 /*-------------------------------------------------*/
-section{min-height: 100vh;
+section{min-height: vh;
 background-image: url(img/background.png);
     background-position: center;
     background-repeat:repeat-y; }
@@ -248,6 +248,10 @@ margin: auto;
     margin-left: 
 padding: 1em}
 
+.sub-heading{font-family: 'Raleway', sans-serif;
+font-size: 0.8em;
+width:70%}
+
 .downarrow{
 
 width: 100%;
@@ -259,10 +263,6 @@ padding: 0;}
 /*----------------------Blog entries---------------------------*/
 .entry-title{font-family: arial black;
 color: rgba(73,39,123,1) }
-
-
-
-
 
 .week-no{font-family: 'Paytone One', sans-serif;
 color: #fff;
@@ -296,9 +296,22 @@ line-height:65px;}
     width:100%;
     float:right;
     right: 0;
-    
-   
 }
+
+blockquote p{font-family: 'Titillium Web', sans-serif;
+    font-size: 7em;
+    text-align:center;
+
+    width: 60%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+cite p{font-size: 0.8em;
+    padding: 0;
+    text-align: right;
+width: 60%}
+
 /*----------------------Blog titles---------------------------*/
 .blog-title1{background-color: rgba(161,116,232,1);
 height: 140px;
@@ -336,17 +349,12 @@ p{
     text-align: justify;
     padding-bottom:1em;  
     width:45%;
-    font-family:arial ;
+   font-family: 'Raleway', sans-serif;
     font-size: 1.4em;
     line-height: 1.5em;
     color: rgba(73,39,123,1);
     margin-top: 30px;
 }
-
-
-
-
-
 /*----------------------media queries---------------------------*/
 
 /*medium*/
@@ -367,41 +375,59 @@ p{
 
 
 @media (max-width: 654px){
+    section{height: auto;}
+    
     .avatar{padding: 1em;
 margin-top:-1em;
     transform: scale(0.6)}
+    
     .intro{display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;}
+    blockquote{margin-top: -200px;
+    margin-bottom: -30px}
     .header{height: 100px;}
+    
     .sub-title{font-size: 2em;margin-top:-50px;}
+    
     .blogpost-img{width: 100%;}
-    .sub-heading{font-size: 1.2em;
+    
+    .sub-heading{font-family: 'Raleway', sans-serif;
+        font-size: 1.2em;
         line-height: 1.5em;
     margin-top: 10px;
         width: 85%;
     text-align: center;}
   
-    .blog-title1{height:70px;}
+    .blog-title1{height:70px;
+    margin-top: -25px}
+    
     .week-no{font-size:3em;
     line-height: 38px;}
+    
     p{padding-top: 1.5em;
         font-size:1.5em;
     line-height: 1.2em;
         margin-top: 50px;
         width: 95%;
     text-align:justify;}
+    
     .name{font-size: 2em;
         margin-bottom: -50px;
     margin-top:20px}
 
+     .date{margin-left:;
+         margin-top: 60px;
+         margin-bottom: -70px;
+        padding: 0;
+    font-size: 1.2em} 
+    
 .downarrow{
 width: 101%;
- position:absolute;
-    right: 0;
-padding: 0;
-    bottom: 0;}
+ position:relative;
+    margin-bottom: 0px;}
+    
     body{overflow-x: hidden;}
     
     .kevin{margin-top: -35px;
@@ -412,16 +438,24 @@ padding: 0;
 
     @media (min-width: 1000px){
       #menuToggle{display: none;}
+        
 .downarrow{
 width: 85.2%;
  position: absolute;
     right: 0;
     bottom:-214px;
 padding: 0;}
+        
         .sub-heading{font-size: 1.9em;width: 40%;}
+        
         p{width: 55%}
+        
  .name{font-size: 2em;
         margin-top: 30px;}
+        
+        .date{margin-left: 150px;
+        margin-bottom: -30px;
+        padding: 0;}        
 }
 
 
