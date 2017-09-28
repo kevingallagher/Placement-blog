@@ -370,7 +370,8 @@ p{
     .container{width: 100%}
     p{width: 75%;
     font size:1.8em}
-    section{ height: auto;}
+    section{ height: auto;
+    padding-bottom: 2.5em;}
     
 }
 
@@ -425,7 +426,7 @@ margin-top:-1em;
     font-size: 1.2em} 
     
 .downarrow{
-width: 101%;
+width: 100%;
  position:relative;
     margin-bottom:0px;}
     
@@ -447,7 +448,6 @@ width: 101%;
 .downarrow{
 width: 100%;
  position: inherit;
-    left:px;
     bottom:0;
 padding: 0;}
         
