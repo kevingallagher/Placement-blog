@@ -357,6 +357,12 @@ height: 140px;
     align-items: flex-end;   
 }
 
+.blog-title5{background-color: rgba(226,118,118,1);
+height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
+}
 .bottom{margin-bottom:}
 
 
