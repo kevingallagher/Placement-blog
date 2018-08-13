@@ -364,6 +364,7 @@ cite p{font-size: 0.8em;
     text-align: right;
 width: 60%}
 
+.photo{width: 60%;}
 /*----------------------Blog titles---------------------------*/
 .blog-title1{background-color: rgba(180,113,192,1);
 height: 140px;
@@ -467,6 +468,7 @@ margin-top:-1em;
     .sub-title{font-size: 2em;margin-top:-50px;}
     
     .blogpost-img{width: 100%;}
+    
     
     .sub-heading{font-family: 'Raleway', sans-serif;
         font-size: 1.2em;
