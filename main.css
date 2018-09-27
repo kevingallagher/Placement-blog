@@ -162,6 +162,17 @@ padding: 0;
 width: 100%;}
 
 /*------------------------side bar-------------------------*/
+.active{padding-top: 1em}
+
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
+
 
 /* rainbow*/
 @import "compass/css3";
@@ -237,7 +248,7 @@ margin-bottom: 11px}
 h4{font-family: arial;
     font-size:.8em ;
 color:white;
-    margin-top: 3.2em;)
+    margin-top: -5em;)
 }
 /*-------------------------------------------------*/
 section{min-height: vh;
@@ -251,11 +262,13 @@ background-image: url(img/background.png);
     width:100%;
     float:right;
     right: 0;
+    background-color: rgba(45,46,51,1);
+    height: 100vh;
 }
 
 .header {display: flex;
     flex-direction: column;
-    background: rgba(45,46,51,1);
+    background: rgba(45,46,51,0);
     text-align: center;
     padding: 0em;
     margin: 0;
@@ -285,7 +298,7 @@ margin-top:3em;
 }
 
 h2{font-family: 'Paytone One', sans-serif;
-   color: rgba(45,46,51,1);  
+   color: white;  
    text-align: center;
     font-size: 2.9em;
 max-width: 700px;
@@ -293,7 +306,7 @@ margin: auto;
 padding: 1em}
 
 h3{font-family: 'Paytone One', sans-serif;
-   color: rgba(45,46,51,0.6);  
+   color: white;  
    text-align: center;
     font-size: 2em;
 margin: auto;
@@ -303,7 +316,9 @@ padding: 1em}
 .sub-heading{font-family: 'Raleway', sans-serif;
 font-size: 0.8em;
 width:70%}
-
+.email{font-family: 'Raleway', sans-serif;
+font-size: 0.8em;
+color: deeppink}
 .downarrow{
 width: 100%;
     margin-bottom: -3px;
