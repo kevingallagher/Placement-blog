@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head id=top>
+    <head>
        
-        <title>K Gallagher</title>
+        <title>Blog</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="main.css" rel="stylesheet">
@@ -11,74 +11,48 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <script src="dist/js/smooth-scroll.js"></script>
     </head>
-    <body>
-        
-        
-         <div id="top" class="container">
-<section class="front">
-        <div class="header">
-        
-<nav role="navigation">
-  <div id="menuToggle">
-      
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-      
-    <input type="checkbox"/>
-    
-    <!--
-    Some spans to act as a hamburger.
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-      
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-      
-    <ul id="menu">
+    <body>   
+        <!------------------------------SIDEBAR FOR LARGE SCREEN-----------------------------------------> 
+<div id="top" class="container">
+<div class="sidebar">
 
-      <a href="#week1"><li class="one">SEPTEMBER</li></a>
-      <a href="#week2"><li class="two">OCTOBER</li></a>
-      <a href="#week3"><li class="three">NOVEMBER</li></a>
-      <a href="#week4"><li class="four">DECEMBER</li></a>   
-      <a href="#week5"><li class="five">JANUARY</li></a>
-      <a href="#week6"><li class="six">FEBRUARY</li></a>   
-      <a href="#week7"><li class="seven">MARCH</li></a>
-      <a href="#week8"><li class="eight">APRIL</li></a>   
-      <a href="https://www.kevingallagher.org/" target="_blank"><li>More From Me</li></a>
-    </ul>
-  </div>
-</nav>
-        
-       
+ <img class="active" src="img/kg-animation.gif">        
+   <div class="weeks">   
+       <h4>BLOG ENTERIES</h4>
+            <ul>
+                
+                   <li class="side-entries one">  <a class="side-a" href=#week1>SEPTEMBER</a></li>
+                   <li class="side-entries two">  <a class="side-a" href=#week2>OCTOBER</a></li>
+                   <li class="side-entries three"><a class="side-a" href=#week3>NOVEMBER</a></li>
+                   <li class="side-entries four"> <a class="side-a" href=#week4>DECEMBER</a></li>
+                   <li class="side-entries five"> <a class="side-a" href=#week5>JANUARY</a></li>
+                   <li class="side-entries six"> <a class="side-a" href=#week6>FEBRUARY</a></li>
+                   <li class="side-entries seven"> <a class="side-a" href=#week7>MARCH</a></li>
+                
+                
+            </ul>
+    </div>       
 </div>
-  
-       <!----------------------------------------------------------------->
-
-          <div class="intro">
-
+<!---------------------------------BLOG-------------------------------------->  <div class=front>
+    
+        <section>
+   <div class="intro">
               
-        <h2 class="sub-title ">Hi I’m Kevin Gallagher a Graphic and UX designer .</h2>  
+              
+        <h2 class="sub-title ">Placement Year with Archer Advertising.</h2>  
         
         
-        <h3 class="sub-heading ">If you need me drop me an <a class="email">email.</a></h3>
+        <h3 class="sub-heading ">Follow along with me as I work and learn!</a></h3>
               
           </div>   
     
-       
-             </section>
-             
-              <div class="blog">   
+        </section>
+        
+        
+        
+        <div class="blog">   
           <!--- copy and past this every new entry and change (1) the section id (2) he blog-title(n) and (3)images -->  
-        <section >
+        <section>
             <div class="blog-title1">
             <h1 id="week1" class="week-no">SEPTEMBER</h1>
             </div>
@@ -308,47 +282,20 @@
          
             
         </div>
-             <!--------------------------------------------------------------------------->  
-             
-                  <div class="sidebar">
-                     <a href=#top ><img class="active" src="img/kg-animation.gif"></a>
-        
-    <div class="weeks">
-        
-        <ul>
-                
-                   <li class="side-entries one">  <a class="side-a" href=#week1>ABOUT</a></li>
-                   <li class="side-entries two">  <a class="side-a" href=#week2>MY WORK</a></li>
-                   <li class="side-entries three"><a class="side-a" href=#week3>CONTACT</a></li>
-                   <li class="side-entries four"> <a class="side-a" href=blog.html>PLACEMENT</a></li>
-                   <li class="side-entries five"> <a class="side-a" href=#week5>FINAL PROJECT</a></li>
-                   <li class="side-entries six"> <a class="side-a" 
-                
-            </ul>
-    </div> 
-        
 </div>
-            
+    
+                  
         <!--------------------------------------------------------------------------->  
          <footer id="footer" class="footer">
-             <!-------------------- 
+         <!-------------------------------------------------------------------
 <div class="social">
 		<ul>
 		    <li><a href="https://dribbble.com/kevingallagher"><img src="image/social-icons/dribbble.svg" alt="Follow me on Dribbble" /></a></li>
 			<li><a href="https://github.com/kevingallagher"><img src="image/social-icons/github.svg" alt="Follow me on GitHub" /></a></li>
             <li><a href="http://designshideout.tumblr.com/"><img src="image/social-icons/tumblr.svg" alt="Follow me on Tumblr" /></a></li>
 		</ul>
-	</div>
---------------------->
+	</div>--------> 
 </footer>
-             
-        </div>
-        
-        
-        
-     <script>
-	var scroll = new SmoothScroll('a[href*="#"]');
-</script>
-        
-    </body>
-</html>
+</div>       
+</body>
+</html>    
